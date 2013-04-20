@@ -156,7 +156,23 @@ end
 
 
 puts "Who's birthday would you like to know?"
-name = gets.chomp
+# Again, don't want to keep entering this.
+# name = gets.chomp
+name = "Christopher Plummer"
+
 
 puts "#{name.pluralize} next birthday is on #{birthday_for_display(names_and_birthdays[name])} when he will be #{age_on_next_birthday(names_and_birthdays[name])}"
+
+
+# 12.7
+
+puts
+puts "==Classes and the Class Class=="
+
+puts (42.class)
+puts("I'll have mayonnaise on mine".class)
+puts(Time.new.class)
+puts(Time.class)
+puts(String.class)
+puts(Class.class)
 
